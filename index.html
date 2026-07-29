@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Averixa Technologies</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Arial',sans-serif;
+}
+
+body{
+    background:#f8fafc;
+    color:#1e293b;
+}
+
+/* Header */
+
+header{
+    background:#050b1c;
+    color:white;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    font-size:24px;
+    font-weight:bold;
+    color:#00c6ff;
+}
+
+.logo img{
+    width:60px;
+    height:60px;
+    object-fit:contain;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+
+/* Hero */
+
+.hero{
+
+    min-height:90vh;
+    background:linear-gradient(135deg,#050b1c,#102a43);
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px;
+
+}
+
+
+.hero h1{
+    font-size:50px;
+}
+
+
+.hero span{
+    color:#00c6ff;
+}
+
+
+.hero p{
+
+    max-width:700px;
+    margin:20px;
+    font-size:20px;
+    line-height:1.6;
+
+}
+
+
+.btn{
+
+    padding:14px 35px;
+    background:#00c6ff;
+    color:white;
+    border-radius:30px;
+    text-decoration:none;
+    margin-top:20px;
+
+}
+
+
+/* Section */
+
+section{
+
+    padding:70px 8%;
+
+}
+
+
+.title{
+
+    text-align:center;
+    font-size:35px;
+    margin-bottom:40px;
+
+}
+
+
+/* Services */
+
+
+.services{
+
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+
+}
+
+
+.card{
+
+background:white;
+width:260px;
+padding:35px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+transition:0.3s;
+
+}
+
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+
+.card h3{
+
+color:#050b1c;
+margin-bottom:15px;
+
+}
+
+
+/* About */
+
+
+.about{
+
+text-align:center;
+max-width:900px;
+margin:auto;
+font-size:18px;
+line-height:1.8;
+
+}
+
+
+/* Footer */
+
+footer{
+
+background:#050b1c;
+color:white;
+text-align:center;
+padding:25px;
+
+}
+.about{
+    padding:80px 10%;
+    text-align:center;
+    background:#f8f9fc;
+}
+
+.about-text{
+    max-width:900px;
+    margin:20px auto 40px;
+    line-height:1.8;
+    color:#555;
+    font-size:18px;
+}
+
+.about-cards{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.about-card{
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    width:320px;
+    transition:0.3s;
+}
+
+.about-card:hover{
+    transform:translateY(-8px);
+}
+
+.about-card h3{
+    color:#00bfff;
+    margin-bottom:15px;
+}
+
+#founder{
+    padding:80px 10%;
+    text-align:center;
+    background:#ffffff;
+}
+
+.founder-card{
+    max-width:700px;
+    margin:auto;
+    background:#f8f9fc;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+
+.founder-card h3{
+    color:#00bfff;
+    margin-bottom:10px;
+}
+
+.founder-card p{
+    line-height:1.7;
+    color:#555;
+}
+footer{
+    background:#07162d;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+    margin-top:60px;
+}
+
+footer h3{
+    color:#39d5ff;
+    margin-bottom:10px;
+}
+
+footer p{
+    margin:8px 0;
+    color:#ddd;
+}
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+    <img src="logo.png" alt="Averixa Technologies Logo">
+    <span>AVERIXA TECHNOLOGIES</span>
+</div>
+
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+
+</nav>
+
+</header>
+
+
+
+<section class="hero">
+
+
+<h1>
+Empowering <span>Businesses</span> Through Technology
+</h1>
+
+
+<p>
+We help businesses grow with custom websites, AI automation, business software, and data analytics solutions that drive efficiency and innovation.
+</p>
+
+
+<a class="btn" href="#">
+Start a Project
+</a>
+
+
+</section>
+<section id="why-us">
+  <h2>Why Choose Averixa?</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>💡 Innovative Solutions</h3>
+      <p>Modern technology tailored to your business needs.</p>
+    </div>
+
+    <div class="card">
+      <h3>⚡ Fast Delivery</h3>
+      <p>Quality projects delivered on time.</p>
+    </div>
+
+    <div class="card">
+      <h3>🤝 Trusted Support</h3>
+      <p>Reliable assistance before and after project delivery.</p>
+    </div>
+
+    <div class="card">
+      <h3>📈 Business Growth</h3>
+      <p>Solutions designed to improve productivity and business performance.</p>
+    </div>
+  </div>
+</section>
+
+
+<section>
+
+<h2 class="title">
+Our Services
+</h2>
+
+
+<div class="services">
+
+
+<div class="card">
+<h3>🌐 Website Development</h3>
+<p>
+Modern responsive websites for growing businesses.
+</p>
+</div>
+
+
+<div class="card">
+<h3>🤖 AI Automation</h3>
+<p>
+Smart automation solutions to improve efficiency.
+</p>
+</div>
+
+
+<div class="card">
+<h3>💼 Business Software</h3>
+<p>
+Custom software solutions for business needs.
+</p>
+</div>
+
+
+<div class="card">
+<h3>📊 Data Analytics</h3>
+<p>
+Turning data into valuable insights.
+</p>
+</div>
+
+
+</div>
+
+</section>
+<section>
+
+<h2 class="title">
+Our Projects
+</h2>
+
+
+<div class="services">
+
+
+<div class="card">
+
+<h3>🌐 Business Website Solutions</h3>
+
+<p>
+Modern and responsive websites designed
+to improve online presence and customer reach.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>📊 Sales Analytics Dashboard</h3>
+
+<p>
+Interactive dashboards that convert business
+data into meaningful insights.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>🤖 AI Automation Solutions</h3>
+
+<p>
+Smart automation solutions that reduce manual
+work and improve business efficiency.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+<section id="about" class="about">
+
+    <h2 class="title">About Averixa Technologies</h2>
+
+    <p class="about-text">
+        Averixa Technologies is a technology solutions company focused on helping businesses grow through innovative digital solutions. We specialize in Website Development, AI Automation, Business Software, and Data Analytics. Our mission is to deliver reliable, scalable, and modern technology solutions that empower businesses to succeed in the digital world.
+    </p>
+
+    <div class="about-cards">
+
+        <div class="about-card">
+            <h3>🎯 Our Mission</h3>
+            <p>
+                To empower businesses through innovative, reliable, and future-ready technology solutions.
+            </p>
+        </div>
+
+        <div class="about-card">
+            <h3>🌍 Our Vision</h3>
+            <p>
+                To become a trusted technology partner for businesses worldwide by delivering quality-driven digital solutions.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<section id="founder">
+    <h2 class="title">Meet the Founder</h2>
+
+    <div class="founder-card">
+        <h3>Bharani S</h3>
+        <p>Founder & CEO, Averixa Technologies</p>
+
+        <p>
+            "My vision is to help businesses embrace technology through innovative software, AI automation, and data-driven solutions."
+        </p>
+    </div>
+</section>
+<section>
+
+<h2 class="title">
+Contact Us
+</h2>
+
+
+<div class="contact-form">
+
+<form onsubmit="sendWhatsApp(); return false;">
+
+<input type="text" id="name" placeholder="Your Name" required>
+
+<input type="email" id="email" placeholder="Your Email" required>
+
+<input type="text" id="phone" placeholder="Your Phone Number">
+
+<textarea id="message" placeholder="Your Message"></textarea>
+
+<button type="submit">
+Send Enquiry
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+
+<style>
+
+.contact-form{
+    max-width:500px;
+    margin:auto;
+}
+
+
+.contact-form input,
+.contact-form textarea{
+
+    width:100%;
+    padding:15px;
+    margin:10px 0;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+
+}
+
+
+.contact-form textarea{
+    height:120px;
+    resize:none;
+}
+
+
+.contact-form button{
+
+    width:100%;
+    background:#00c6ff;
+    color:white;
+    border:none;
+    padding:15px;
+    border-radius:25px;
+    font-size:16px;
+    cursor:pointer;
+
+}
+
+</style>
+
+<section>
+
+<h2 class="title">
+About Averixa
+</h2>
+
+
+<div class="about">
+
+<p>
+Averixa Technologies is a technology-driven company
+creating innovative digital solutions that help businesses
+grow in the modern digital world.
+</p>
+
+</div>
+
+</section>
+
+<footer>
+    <h3>Averixa Technologies</h3>
+    <p>Empowering Businesses Through Technology.</p>
+
+    <p>📧 averixatechnologies@gmail.com</p>
+    <p>📱 +91 9080660877</p>
+
+    <p style="margin-top:15px;">
+        © 2026 Averixa Technologies. All Rights Reserved.
+    </p>
+</footer>
+
+
+<a href="https://wa.me/919080660877" class="whatsapp">
+💬 Chat with us
+</a>
+
+<style>
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px 20px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+</style>
+<script>
+
+function sendWhatsApp(){
+
+let name = document.getElementById("name").value;
+let email = document.getElementById("email").value;
+let phone = document.getElementById("phone").value;
+let message = document.getElementById("message").value;
+
+
+let whatsappNumber = "919080660877";
+
+
+let text = 
+"New Enquiry - Averixa Technologies%0A%0A" +
+"Name: " + name + "%0A" +
+"Email: " + email + "%0A" +
+"Phone: " + phone + "%0A" +
+"Message: " + message;
+
+
+let url = "https://wa.me/" + whatsappNumber + "?text=" + text;
+
+
+window.open(url, "_blank");
+
+}
+
+</script>
+</body>
+</html>
